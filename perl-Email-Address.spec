@@ -9,7 +9,7 @@ Summary:	Email::Address - RFC 2822 Address Parsing and Creation
 Summary(pl):	Email::Address - Parsowanie i tworzenie adresów zgodnych z RFC 2822
 Name:		perl-Email-Address
 Version:	1.2
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl

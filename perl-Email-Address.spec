@@ -1,5 +1,3 @@
-# ToDo:
-# - pl description
 #
 # Conditional build:
 %bcond_without  tests           # do not perform "make test"
@@ -24,12 +22,16 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This class implements a complete RFC 2822 parser that locates email
-addresses in strings and returns a list of C<Email::Address> objects
-found. Alternatley you may construct objects manually. The goal
-of this software is to be correct, very very fast, and API compatible
+addresses in strings and returns a list of Email::Address objects
+found. Alternatley you may construct objects manually. The goal of
+this software is to be correct, very very fast, and API compatible
 with the MailTools version. Did I mention fast?
 
-#%description -l pl
+%description -l pl
+Ta klasa implementuje zgodny z RFC 2822 parser który lokalizuje adresy
+email w ci±gach znaków i zwraca listê obiektów Email::Address. Mo¿liwe
+jest tak¿e tworzenie takich obiektów rêczenie. Oprogramowanie to ma
+byæ poprawne, bardzo bardzo szybkie, i z API zgodnym z MailTools. 
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
@@ -37,6 +39,7 @@ with the MailTools version. Did I mention fast?
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
+
 %{__make}
 
 %{?with_tests:%{__make} test}

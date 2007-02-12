@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Address
 Summary:	Email::Address - RFC 2822 Address Parsing and Creation
-Summary(pl):	Email::Address - Parsowanie i tworzenie adresów zgodnych z RFC 2822
+Summary(pl.UTF-8):   Email::Address - Parsowanie i tworzenie adresÃ³w zgodnych z RFC 2822
 Name:		perl-Email-Address
 Version:	1.86
 Release:	1
@@ -28,11 +28,11 @@ found. Alternatley you may construct objects manually. The goal of
 this software is to be correct, very very fast, and API compatible
 with the MailTools version. Did I mention fast?
 
-%description -l pl
-Ta klasa implementuje zgodny z RFC 2822 parser który lokalizuje adresy
-email w ci±gach znaków i zwraca listê obiektów Email::Address. Mo¿liwe
-jest tak¿e tworzenie takich obiektów rêczenie. Oprogramowanie to ma
-byæ poprawne, bardzo bardzo szybkie, i z API zgodnym z MailTools.
+%description -l pl.UTF-8
+Ta klasa implementuje zgodny z RFC 2822 parser ktÃ³ry lokalizuje adresy
+email w ciÄ…gach znakÃ³w i zwraca listÄ™ obiektÃ³w Email::Address. MoÅ¼liwe
+jest takÅ¼e tworzenie takich obiektÃ³w rÄ™czenie. Oprogramowanie to ma
+byÄ‡ poprawne, bardzo bardzo szybkie, i z API zgodnym z MailTools.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}

@@ -6,7 +6,7 @@
 %define		pdir	Email
 %define		pnam	Address
 Summary:	Email::Address - RFC 2822 Address Parsing and Creation
-Summary(pl.UTF-8):   Email::Address - Parsowanie i tworzenie adresów zgodnych z RFC 2822
+Summary(pl.UTF-8):	Email::Address - Parsowanie i tworzenie adresów zgodnych z RFC 2822
 Name:		perl-Email-Address
 Version:	1.86
 Release:	1

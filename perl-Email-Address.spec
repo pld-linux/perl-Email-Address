@@ -8,14 +8,15 @@
 Summary:	Email::Address - RFC 2822 Address Parsing and Creation
 Summary(pl.UTF-8):	Email::Address - Parsowanie i tworzenie adresów zgodnych z RFC 2822
 Name:		perl-Email-Address
-Version:	1.898
+Version:	1.900
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Email/RJBS/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	0ea27eae4888ec25733af68b51f20245
+# Source0-md5:	40a76806c7cf5cb8ef65bc80328436b8
 URL:		http://search.cpan.org/dist/Email-Address/
+BuildRequires:	perl-Capture-Tiny
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch

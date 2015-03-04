@@ -21,6 +21,7 @@ BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-Capture-Tiny
+BuildRequires:	perl-Encode
 BuildRequires:	perl-Test-Simple >= 0.96
 %endif
 BuildArch:	noarch

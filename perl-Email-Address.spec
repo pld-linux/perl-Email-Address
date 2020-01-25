@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Email
 %define		pnam	Address
 Summary:	Email::Address - RFC 2822 Address Parsing and Creation
